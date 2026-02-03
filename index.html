@@ -1,45 +1,148 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inveo - Control total de tus inversiones</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #ffffff;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            text-align: center;
-        }
-        h1 { font-size: 3rem; margin-bottom: 0.5rem; letter-spacing: -1px; }
-        p { font-size: 1.2rem; color: #666; max-width: 600px; line-height: 1.5; }
-        .btn {
-            margin-top: 2rem;
-            padding: 10px 20px;
-            background-color: #000;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-        }
-        @media (prefers-color-scheme: dark) {
-            body { background-color: #111; color: #fff; }
-            p { color: #aaa; }
-            .btn { background-color: #fff; color: #000; }
-        }
-    </style>
-</head>
-<body>
-    <h1>Inveo.</h1>
-    <p>Olvídate de Excel. Control de inversiones, dividendos y fiscalidad española en local.</p>
-    <p><strong>Lanzamiento próximamente.</strong></p>
-    
-    <a href="https://twitter.com/InveoApp" class="btn">Seguir novedades en Twitter</a>
-</body>
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Inveo - Control de Inversiones y Fiscalidad</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body class="landing is-preload">
+
+        <div id="page-wrapper">
+
+                <header id="header" class="alt">
+                        <h1><a href="index.html">Inveo</a></h1>
+                        <nav id="nav">
+                            <ul>
+                                <li class="special">
+                                    <a href="#menu" class="menuToggle"><span>Menú</span></a>
+                                    <div id="menu">
+                                        <ul>
+                                            <li><a href="index.html">Inicio</a></li>
+                                            <li><a href="#one">Características</a></li>
+                                            <li><a href="#cta">Descargar</a></li>
+                                            <li><a href="https://twitter.com/InveoApp" target="_blank">Twitter</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </nav>
+                    </header>
+
+                <section id="banner">
+                        <div class="inner">
+                            <h2>Inveo</h2>
+                            <p>LA ALTERNATIVA A EXCEL PARA EL INVERSOR ESPAÑOL<br />
+                            Control de dividendos, privacidad total<br />
+                            y preparado para Hacienda.</p>
+                            <ul class="actions special">
+                                <li><a href="#one" class="button primary">Ver cómo funciona</a></li>
+                            </ul>
+                        </div>
+                        <a href="#one" class="more scrolly">Más información</a>
+                    </section>
+
+                <section id="one" class="wrapper style1 special">
+                        <div class="inner">
+                            <header class="major">
+                                <h2>Tu cartera, bajo control<br />
+                                sin fórmulas que se rompen</h2>
+                                <p>Deja de perder el tiempo manteniendo hojas de cálculo.<br />
+                                Inveo importa tus datos, calcula la rentabilidad real y te ayuda con el Modelo 720.</p>
+                            </header>
+                            <ul class="icons major">
+                                <li><span class="icon fa-gem major style1"><span class="label">Valor</span></span></li>
+                                <li><span class="icon fa-heart major style2"><span class="label">Pasión</span></span></li>
+                                <li><span class="icon solid fa-code major style3"><span class="label">Código</span></span></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                <section id="two" class="wrapper alt style2">
+                        <section class="spotlight">
+                            <div class="image"><img src="images/pic01.jpg" alt="Gráfico de Inveo" /></div><div class="content">
+                                <h2>Fiscalidad Española<br />
+                                Sin Dolores de Cabeza</h2>
+                                <p>Olvídate de calcular el método FIFO a mano. Inveo detecta tus compras y ventas, gestiona los splits y te prepara los datos para que solo tengas que copiarlos en tu Declaración de la Renta.</p>
+                            </div>
+                        </section>
+                        <section class="spotlight">
+                            <div class="image"><img src="images/pic02.jpg" alt="Privacidad Local" /></div><div class="content">
+                                <h2>Privacidad Total:<br />
+                                Tus datos no salen de tu PC</h2>
+                                <p>A diferencia de las webs online, Inveo es una app de escritorio. Tu información financiera se guarda en local en tu ordenador. Nadie más tiene acceso a ella. Seguridad absoluta.</p>
+                            </div>
+                        </section>
+                        <section class="spotlight">
+                            <div class="image"><img src="images/pic03.jpg" alt="Dividendos" /></div><div class="content">
+                                <h2>Control de Dividendos<br />
+                                y Proyecciones</h2>
+                                <p>Visualiza tus cobros mensuales, tu Yield on Cost real y proyecta cuánto cobrarás el año que viene. Todo actualizado automáticamente.</p>
+                            </div>
+                        </section>
+                    </section>
+
+                <section id="three" class="wrapper style3 special">
+                        <div class="inner">
+                            <header class="major">
+                                <h2>Diseñado por inversores, para inversores</h2>
+                                <p>Sabemos lo que necesitas porque nosotros también lo necesitábamos.</p>
+                            </header>
+                            <ul class="features">
+                                <li class="icon fa-paper-plane">
+                                    <h3>Rápido</h3>
+                                    <p>Olvídate de las webs lentas. Al ser nativo en tu PC, Inveo vuela.</p>
+                                </li>
+                                <li class="icon solid fa-laptop">
+                                    <h3>Multiplataforma</h3>
+                                    <p>Disponible próximamente para Windows, Mac y Linux.</p>
+                                </li>
+                                <li class="icon solid fa-code">
+                                    <h3>Transparente</h3>
+                                    <p>Desarrollado con tecnologías modernas y pensado para durar.</p>
+                                </li>
+                                <li class="icon solid fa-headphones-alt">
+                                    <h3>Soporte Directo</h3>
+                                    <p>Habla directamente con el desarrollador. Sin intermediarios.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                <section id="cta" class="wrapper style4">
+                        <div class="inner">
+                            <header>
+                                <h2>Empieza a controlar tu patrimonio</h2>
+                                <p>Únete a la lista de espera y sé el primero en probar la Beta.</p>
+                            </header>
+                            <ul class="actions stacked">
+                                <li><a href="https://twitter.com/InveoApp" class="button fit primary">Seguir en Twitter</a></li>
+                                <li><a href="mailto:hola@inveo.es" class="button fit">Contactar</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                <footer id="footer">
+                        <ul class="icons">
+                            <li><a href="https://twitter.com/InveoApp" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                            <li><a href="mailto:hola@inveo.es" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                            <li><a href="https://github.com/InveoApp" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        </ul>
+                        <ul class="copyright">
+                            <li>&copy; Inveo App</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+                        </ul>
+                    </footer>
+
+            </div>
+
+        <script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.scrollex.min.js"></script>
+            <script src="assets/js/jquery.scrolly.min.js"></script>
+            <script src="assets/js/browser.min.js"></script>
+            <script src="assets/js/breakpoints.min.js"></script>
+            <script src="assets/js/util.js"></script>
+            <script src="assets/js/main.js"></script>
+
+    </body>
 </html>
